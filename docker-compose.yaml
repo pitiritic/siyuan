@@ -8,3 +8,4 @@ services:
       - "6806:6806"
     volumes:
       - /var/lib/docker/siyuan/data:/siyuan/workspace
+    command: ["--accessAuthCode=CodigoSeguro"]
